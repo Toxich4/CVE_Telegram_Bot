@@ -43,8 +43,8 @@ pip install -r requirements.txt
 TELEGRAM_BOT_TOKEN=123456:ABCdef...
 TELEGRAM_CHAT_ID=-100*********
 # Для форумной темы (опционально)
-# CHAT_ID = -100*********, THREAD_ID = 1
-THREAD_ID=3461
+# TELEGRAM_CHAT_ID = -100*********, THREAD_ID = 1
+THREAD_ID=5
 
 # Период выгрузки: 30m (по умолчанию), hour, day, week, month
 PERIOD=30m
@@ -120,11 +120,10 @@ python3 cve_bot.py
 - строки вида `[MATCH] CVE-XXXX-YYYY by 'Azure AD'` — показывают, по какому ключу прошло.
 
 ### Периодический запуск (cron)
-
 Надёжный пример:
 
 ```cron
-*/30 * * * * python3 cve_bot.py >> bot.log 2>&1'
+*/30 * * * * python3 cve_bot.py >> bot.log 2>&1
 ```
 
 ### Отправка в конкретный топик (форум)
