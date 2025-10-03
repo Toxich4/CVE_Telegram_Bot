@@ -1,6 +1,6 @@
 # CVE Notification Bot (Telegram + NVD API)
 
-Телеграм-бот, который периодически получает новые CVE из NVD API за заданный период, фильтрует их по **ключевым словам** и отправляет в чат/топик.  
+Телеграм-бот, который получает новые CVE из NVD API за заданный период, фильтрует их по **ключевым словам** и отправляет в чат/топик.  
 Поддерживает:
 - хранение секретов в `.env`;
 - выбор периода (30 минут / час / сутки / неделя / месяц);
@@ -20,8 +20,8 @@
 ## Установка
 
 ```bash
-git clone <your-repo-url>
-cd <repo-dir>
+git clone https://github.com/Toxich4/CVE_Telegram_Bot
+cd CVE_Telegram_Bot
 
 python3 -m venv .venv
 . .venv/bin/activate
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Конфигурация
 
-### 1) `.env` (не коммитим, добавлен в `.gitignore`)
+### 1) `.env`
 
 Создайте файл `.env` в корне:
 
@@ -110,7 +110,7 @@ Laravel
 
 ```bash
 . .venv/bin/activate
-python cve_bot.py
+python3 cve_bot.py
 ```
 
 В логах увидите:
@@ -152,5 +152,4 @@ THREAD_ID = 5
 ℹ️  More information:
 1. <url>
 2. <url>
-...
 ```
