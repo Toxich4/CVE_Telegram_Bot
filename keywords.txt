@@ -1,0 +1,43 @@
+CISCO
+IOS XE
+ASA
+AnyConnect
+Palo Alto
+PAN-OS
+Check Point
+Citrix
+Confluence
+Vault
+Bitrix
+Jira
+Microsoft
+Firefox
+Exchange
+Mattermost
+VMware
+IIS
+ESXi
+vCenter
+vSphere
+Nexus
+GitLab
+HashiCorp
+Jenkins
+Azure AD
+Keycloak
+Nginx
+Grafana
+Swagger
+Kibana
+Kubernetes
+Nagios
+Spring Boot
+Next JS
+MySQL
+PostgreSQL
+Redis
+Airflow
+Apache
+Node.js
+Vaadin
+Laravel
